@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "experiment_id": "EXP_COCO_20260607_2138",
+        "advanced_mode_enabled": true,
+        "best_epoch": 4,
+        "time_cost_hours": 0.7269
+    },
+    "hardware_and_weights": {
+        "peak_gpu_memory_gb": 2.252,
+        "trainable_params_count": 591362,
+        "total_params_count": 86391556,
+        "trainable_ratio": "0.68%"
+    },
+    "final_performance": {
+        "subset_accuracy": 0.9010108051585919,
+        "f1_macro": 0.8893459329256994,
+        "auc_roc_per_class": {
+            "person": 0.9739739813658306,
+            "car": 0.966898109218461
+        },
+        "confusion_matrix": {
+            "person": [
+                [
+                    113,
+                    63
+                ],
+                [
+                    52,
+                    2641
+                ]
+            ],
+            "car": [
+                [
+                    2266,
+                    68
+                ],
+                [
+                    133,
+                    402
+                ]
+            ]
+        }
+    },
+    "error_analysis": {
+        "class_error_counts": {
+            "person": {
+                "FP": 63,
+                "FN": 52,
+                "Hard": 75
+            },
+            "car": {
+                "FP": 68,
+                "FN": 133,
+                "Hard": 118
+            }
+        },
+        "total_hard_samples": 193
+    }
+}

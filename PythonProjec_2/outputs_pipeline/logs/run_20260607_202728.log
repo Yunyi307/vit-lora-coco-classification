@@ -1,0 +1,43 @@
+2026-06-07 20:27:28,804 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-07 20:27:28,910 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:28,910 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-07 20:27:28,929 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-06-07 20:27:29,033 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:29,049 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:27:29,170 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-07 20:27:29,270 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:29,292 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-06-07 20:27:29,429 - INFO - 【阶段1】启动极小规模快速回归连通性测试...
+2026-06-07 20:27:29,603 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:29,624 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:27:29,745 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:29,761 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:27:55,317 - INFO - ✅ 阶段1：代码连通性完美验证通过。
+2026-06-07 20:27:55,318 - INFO - >>> 启动 LR Finder 探测器流程...
+2026-06-07 20:27:55,444 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:55,460 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:27:55,567 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:27:55,583 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:29:05,531 - INFO - ✅ LR Finder 完毕。最优梯度下降切点 LR 推荐值为: 1.00e-07
+2026-06-07 20:29:06,629 - INFO - >>> 启动多组合超参数对比微型网格搜索...
+2026-06-07 20:29:06,630 - INFO - 正在测试组合 [1/4]: r=8, lr=0.0003
+2026-06-07 20:29:06,774 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:29:06,791 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:29:06,921 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:29:06,938 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:33:11,289 - INFO - 正在测试组合 [2/4]: r=16, lr=0.0003
+2026-06-07 20:33:11,438 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:33:11,457 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:33:11,570 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:33:11,589 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:37:40,412 - INFO - 正在测试组合 [3/4]: r=32, lr=0.001
+2026-06-07 20:37:40,577 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:37:40,605 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:37:40,710 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:37:40,725 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:41:43,755 - INFO - 正在测试组合 [4/4]: r=64, lr=0.003
+2026-06-07 20:41:43,899 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:41:43,915 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:41:44,028 - INFO - HTTP Request: HEAD https://huggingface.co/google/vit-base-patch16-224/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-07 20:41:44,043 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/vit-base-patch16-224/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3/config.json "HTTP/1.1 200 OK"
+2026-06-07 20:45:49,349 - INFO - 🎉 搜索完毕！超参检索全链路汇总图表已成功落盘存盘。
